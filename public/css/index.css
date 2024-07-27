@@ -1,0 +1,91 @@
+body {
+  position: relative;
+  overflow: hidden;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 양 끝쪽에 배치 */
+
+  width: 100%;
+  height: 56px;
+
+  padding: 0 16px;
+}
+
+.header .header__logoBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+
+  gap: 8px;
+
+  cursor: pointer;
+}
+
+.header .header__logoBox .header__logoBox__logo {
+  height: 75%;
+}
+
+.header .header__logoBox .header__logoBox__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header .header__profileBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 16px;
+}
+
+.header .header__profileBox .header__profileBox__userName {
+  color: #777777;
+  font-weight: 400;
+  font-style: 15px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 50px;
+
+  gap: 32px;
+
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.navigation .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 100%;
+
+  text-decoration: none;
+  color: #667085;
+  font-weight: 500;
+}
+
+.navigation .item:hover {
+  color: #000000;
+  font-weight: 600;
+  border-bottom: 2px solid #667085;
+}

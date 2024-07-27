@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Homepage</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <div class="page">
+    <!-- 공통 헤더 UI 부분 -->
+    <header class="header">
+      <div class="header__logoBox" onclick="location.href='/'">
+        <img src="./image/logo.jpg" alt="헤더이미지" class="header__logoBox__logo">
+        <span class="header__logoBox__title">MyWebsite</span>
+      </div>
+      <div class="header__profileBox">
+        <span class="header__profileBox__userName">tmakdlf2482 | tmakdlf2482@naver.com</span>
+      </div>
+    </header>
+    
+    <!-- 공통 네비게이션 UI 부분 -->
+    <nav class="navigation">
+      <a href="home.html" target="main" class="item">Home</a>
+      <a href="profile.html" target="main" class="item">Profile</a>
+      <a href="gallery.html" target="main" class="item">Gallery</a>
+      <a href="member.html" target="main" class="item">Member</a>
+      <a href="study.html" target="main" class="item">Study</a>
+    </nav>
+    
+    <iframe name="main" src="home.html" width="100%" height="100%" frameborder="0"></iframe>
+
+  </div>
+</body>
+</html>
